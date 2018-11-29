@@ -1,0 +1,15 @@
+2018-10-20 22:18:18,915 [main] DEBUG AggregateQueryProvider.Query - Aggregate pipeline for query unnamed after forming queries - [{$addFields:{
+       totalHomework: { $sum: "$homework" } ,
+       totalQuiz: { $sum: "$quiz" }
+     }}, {$addFields:{ totalScore:
+       { $add: [ "$totalHomework", "$totalQuiz", "$extraCredit" ] } }}]
+2018-10-20 22:19:50,291 [main] DEBUG AggregateQueryProvider.Query - Aggregate pipeline for query unnamed after forming queries - [{$addFields:{
+       totalHomework: { $sum: "$homework" } ,
+       totalQuiz: { $sum: "$quiz" }
+     }}, {$addFields:{ totalScore:
+       { $add: [ "$totalHomework", "$totalQuiz", "$extraCredit" ] } }}]
+2018-10-20 22:19:59,146 [main] DEBUG AggregateQueryProvider.Query - Aggregate pipeline for query unnamed after forming queries - [{$addFields:{
+       totalHomework: { $sum: "$homework" } ,
+       totalQuiz: { $sum: "$quiz" }
+     }}, {$addFields:{ totalScore:
+       { $add: [ "$totalHomework", "$totalQuiz", "$extraCredit" ] } }}]

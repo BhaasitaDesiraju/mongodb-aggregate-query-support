@@ -36,7 +36,7 @@ public @interface GraphLookup {
 
   String query();
 
-  Conditional[] conditional() default {};
+  Conditional[] condition() default {};
 
   Conditional.ConditionalMatchType conditionMatchType() default Conditional.ConditionalMatchType.ANY;
 }

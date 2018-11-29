@@ -30,17 +30,17 @@ import com.github.krr.mongodb.aggregate.support.nonreactive.annotations.MongoId;
 public class Score {
 
   @MongoId
-  private int id;
+  private String id;
 
   private String subject;
 
   private int score;
 
-  public int getId() {
+  public String getId() {
     return id;
   }
 
-  public void setId(int id) {
+  public void setId(String id) {
     this.id = id;
   }
 
